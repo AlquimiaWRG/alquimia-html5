@@ -1,0 +1,13 @@
+{
+  "name": "alquimia-html5",
+  "version": "0.0.1",
+  "description": "Support for pretty URL into Angular applications.",
+  "dependencies": {
+    "alquimia-angular": ""
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mauro Constantinescu",
+  "license": "ISC"
+}
