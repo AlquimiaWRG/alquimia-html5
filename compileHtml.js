@@ -5,7 +5,7 @@ module.exports = function(html) {
 
   if (alquimia.env === alquimia.ENV_PROD) {
     base += __dirname.split('/').slice(-3)[0] + '/prod/';
-  } else if (alquimia.config.packages.indexOf('livereload') < 0) {
+  } else if (!alquimia.server) {
     base += __dirname.split('/').slice(-3)[0] + '/app/';
   }
 
