@@ -1,6 +1,6 @@
 {
   "name": "alquimia-html5",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Support for pretty URL into Angular applications.",
   "dependencies": {
     "alquimia-angular": ""
